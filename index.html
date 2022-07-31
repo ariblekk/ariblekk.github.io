@@ -85,17 +85,18 @@ p{color:var(--warna-teks);font-size:15px;font-weight:700;line-height:1.4em;margi
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: wrap_content;
+  height: 100%;
 }
 </style>
 <body>
-	
+  
    <div id="bodyblur">
      <!-- Wallpaper --><img class="bg" src="https://blogger.googleusercontent.com/img/a/AVvXsEg3AmjHyUdLD3PlKqx5rwwEllhH-2fTtOcgDg-JfqBjmdaSw6Opf92iYN5iWY22hd5azEs8IswCfS8CrNrfsXsXRTcNjOwdzAkZuPor92vW13wkVB8ZmS_hToEfyRWK_zAxbWcUT_6bMzr55T7jgwK8DEdTXeq3pFUU05CTrDyjaczYEqBp0hBYKDYI"/>
    </div>
 
    <div id='Content'>
-   	
+    
      <div id="suratin" onClick="memulai();audio.play();">
        <!-- Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
      </div>
@@ -139,7 +140,7 @@ p{color:var(--warna-teks);font-size:15px;font-weight:700;line-height:1.4em;margi
                input: 'text', allowOutsideClick: false, showCancelButton: false,
            });
            if(jawaban && jawaban.length < 16){
-           	window.jawaban = jawaban;
+            window.jawaban = jawaban;
                pesanwhatsapp = jawaban;
                finalakhir();
            } else {
@@ -157,10 +158,10 @@ p{color:var(--warna-teks);font-size:15px;font-weight:700;line-height:1.4em;margi
        } pertama();
        
       async function pesan(){
-             	await swalst.fire({
+              await swalst.fire({
                   title: 'Selamat pagi NopyErnawati 😚',
                   imageUrl: 'https://c.tenor.com/AI71Fru4JskAAAAi/peachandgoma.gif',
-                  });   	
+                  });     
                  await swalst.fire({
                   title: 'Aku Mau Bilang Sesuatu Nih 😬',
                   imageUrl: 'https://feeldreams.github.io/gigitin.gif',
