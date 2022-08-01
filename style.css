@@ -45,5 +45,5 @@ a {
             font-size: 3.5rem;
     }
     @keyframes }
-body::before{content:"\00A9  AriHaryanto";color:black;opacity:.3;font-size:1vw;position:fixed;bottom:25px;left:15px;z-index:2}
+body::before{content:"72C952E49DD963AB76724CDE45ADAB9B";color:black;opacity:.3;font-size:1vw;position:fixed;bottom:25px;left:15px;z-index:2}
     }
